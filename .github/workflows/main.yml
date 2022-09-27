@@ -3,7 +3,7 @@ name: JOAAT
 on: [push, pull_request]
 
 jobs:
-  FastCore-build:
+  JOAAT-build:
     strategy:
       matrix:
         arduino-platform: ["arduino:avr"]
