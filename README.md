@@ -14,7 +14,6 @@ void setup() {
   // put your setup code here, to run once:
   Serial.print("Calculated JOAAT Hash: ");
   Serial.println(joaat.encode_str(str), HEX);
-
 }
 
 void loop() {
